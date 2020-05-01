@@ -1,0 +1,82 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+}
+
+.flex {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    min-height: 50vh;
+    align-items: center;
+}
+
+.box {
+    margin: 1em;
+    width: 100%;
+    border-radius: 10px;
+    min-height: 140px;
+}
+
+.box.confirmed {
+    padding: 0.5em;
+    border: 1px solid rgb(59, 59, 59);
+    background: rgb(236, 72, 7);
+}
+
+.box.recovered {
+    padding: 0.5em;
+    border: 1px solid rgb(59, 59, 59);
+    background: rgb(13, 158, 25);
+}
+
+.box.deaths {
+    padding: 0.5em;
+    border: 1px solid rgb(59, 59, 59);
+    background: rgb(236, 22, 7);
+}
+
+.dropdown {
+    margin-top: 17px;
+    padding: 2px 20px 2px 20px;
+    height: auto;
+    overflow: hidden;
+    font-weight: 100;
+    font-size: 11px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+option {
+    font-weight: 700;
+    font-size: 11px;
+    
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 700px) {
+    .flex {
+        flex-wrap: nowrap;
+    }
+
+    .box {
+        max-width: 300px;
+        text-align: center;
+        line-height: 4em;
+        font-size: 18px;
+    }
+}
