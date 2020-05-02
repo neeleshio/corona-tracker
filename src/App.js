@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import "./style.css";
+import CountUp from 'react-countup';
 
 export default class App extends React.Component {
     constructor(props) {
@@ -63,15 +64,30 @@ export default class App extends React.Component {
                 <div className="flex">
                     <div className="box confirmed">
                         <h2>Confirmed</h2>
-                        <h3>{this.state.confirmed}</h3>
+                        <h3><CountUp
+                            start={0}
+                            end={this.state.confirmed}
+                            duration={2}
+                            separator=","
+                        /></h3>
                     </div>
                     <div className="box recovered">
                         <h2>Recovered</h2>
-                        <h3>{this.state.recovered}</h3>
+                        <h3><CountUp
+                            start={0}
+                            end={this.state.recovered}
+                            duration={2}
+                            separator=","
+                        /></h3>
                     </div>
                     <div className="box deaths">
                         <h2>Deaths</h2>
-                        <h3>{this.state.deaths}</h3>
+                        <h3><CountUp
+                            start={0}
+                            end={this.state.deaths}
+                            duration={2}
+                            separator=","
+                        /></h3>
                     </div >
                 </div>
                 <footer>
