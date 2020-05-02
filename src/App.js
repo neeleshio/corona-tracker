@@ -81,13 +81,13 @@ export default class App extends React.Component {
                         <i class="fab fa-github-square "></i>
                         <span>GITHUB</span>
                     </a>
-                    <a class="button github" href="https://github.com/neeleshio" target="_blank">
-                        <i class="fab fa-github-square "></i>
-                        <span>GITHUB</span>
+                    <a class="button twitter" href="https://github.com/neeleshio" target="_blank">
+                        <i class="fab fa-twitter-square "></i>
+                        <span>TWITTER</span>
                     </a>
-                    <a class="button github" href="https://github.com/neeleshio" target="_blank">
-                        <i class="fab fa-github-square "></i>
-                        <span>GITHUB</span>
+                    <a class="button linkedin" href="https://github.com/neeleshio" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LINKEDIN</span>
                     </a>
                 </footer>
 

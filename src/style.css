@@ -1,3 +1,7 @@
+html {
+    background-color: #1e1d21;
+}
+
 * {
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
@@ -6,10 +10,36 @@
     box-sizing: border-box;
 }
 
+h2 {
+    display: flex;
+    color: #aaaaaa;
+    align-items: flex-start;
+    font-size: 18px;
+    padding: 3px 10px;
+}
+
+h3 {
+    font-size: 38px;
+    padding-top: 5px;
+}
+
+.box.confirmed > h3 {
+    color: #007bff;
+}
+
+.box.recovered > h3 {
+    color: #28a761;
+}
+
+.box.deaths > h3 {
+    color: #ff073a;
+}
+
 .container {
     width: 100%;
     padding: 1em;
     text-align: center;
+    background-color: #1e1d21;
 }
 
 .flex {
@@ -30,20 +60,22 @@
 
 .box.confirmed {
     padding: 0.5em;
-    border: 1px solid rgb(59, 59, 59);
-    background: rgb(236, 72, 7);
+    background: #262529;
+box-shadow:10px 10px 20px 0 rgba(0,0,0,.16);
 }
 
 .box.recovered {
     padding: 0.5em;
-    border: 1px solid rgb(59, 59, 59);
-    background: rgb(13, 158, 25);
+    background: #262529;
+    box-shadow:10px 10px 20px 0 rgba(0,0,0,.16);
+
 }
 
 .box.deaths {
     padding: 0.5em;
-    border: 1px solid rgb(59, 59, 59);
-    background: rgb(236, 22, 7);
+    background: #262529;
+    box-shadow:10px 10px 20px 0 rgba(0,0,0,.16);
+
 }
 
 .dropdown {
@@ -55,17 +87,59 @@
     font-size: 11px;
     text-align: center;
     border-radius: 8px;
+    color: #aaaaaa;
+    background-color: #1e1d21;;
 }
 
 option {
     font-weight: 700;
     font-size: 11px;
-    
 }
 
 footer {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+}
+
+.button {
+    text-decoration: none;
+    padding: 5px;
+    margin: 10px 0 5px 0;
+    align-self: center;
+    width: 200px;
+    border-radius: 6px;
+    border: none;
+}
+
+a {
+    color: initial;
+    
+    font-size: 15px;
+}
+
+p, h1 {
+    color: #aaaaaa;
+}
+
+.github {
+    background-color: #000000;
+    color: #e6ffff;
+    
+    
+}
+
+.twitter {
+    background-color: #eff7ff;
+    color: #60adff;
+}
+
+.linkedin {
+    background-color: #0088cc;
+}
+
+i  {
+    padding: 0 6px;
 }
 
 @media screen and (min-width: 700px) {
