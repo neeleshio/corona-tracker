@@ -2,9 +2,7 @@
 <h1 align="center">
   <img src="https://raw.githubusercontent.com/neeleshio/Corona-Tracker/master/coronatracker(2).png" alt="Markdownify" width="600">
 </h1>
-
 <h4 align="center">Responsive corona cases tracker webapp built with ReactJs.</h4>
-
 <div align="center">
   <a href="https://coronatrackerindia.vercel.app/"><img src="https://img.shields.io/badge/host-vercel-success">
   <a href="https://github.com/mathdroid/covid-19-api"><img src="https://img.shields.io/badge/API-mathdroid-blueviolet"><a/>
@@ -12,9 +10,7 @@
   <img src="https://img.shields.io/badge/license-MIT-blue.svg">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=RestAPI-CRUD-Friendly.visitor-badge">
 </div>
-    
 <hr/>
-
 ## Demo
 
 <h1 align="center">
