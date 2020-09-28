@@ -2,7 +2,9 @@
 <h1 align="center">
   <img src="https://raw.githubusercontent.com/neeleshio/Corona-Tracker/master/coronatracker(2).png" alt="Markdownify" width="600">
 </h1>
+
 <h4 align="center">Responsive corona cases tracker webapp built with ReactJs.</h4>
+
 <div align="center">
   <a href="https://coronatrackerindia.vercel.app/"><img src="https://img.shields.io/badge/host-vercel-success">
   <a href="https://github.com/mathdroid/covid-19-api"><img src="https://img.shields.io/badge/API-mathdroid-blueviolet"><a/>
@@ -10,7 +12,9 @@
   <img src="https://img.shields.io/badge/license-MIT-blue.svg">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=RestAPI-CRUD-Friendly.visitor-badge">
 </div>
+    
 <hr/>
+
 ## Demo
 
 <h1 align="center">
@@ -21,7 +25,7 @@
 
 ## Installation
 
-You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) & [npm](http://npmjs.com) installed on your computer.
+You'll need [Git](https://git-scm.com) and [npm](http://npmjs.com) installed on your computer.
 
 ## Usage
 
@@ -29,10 +33,10 @@ From your command line:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/neeleshio/RestAPI-CRUD.git
+$ git clone https://github.com/neeleshio/Corona-Tracker.git
 
 # Go into the repository
-$ cd RestAPI-CRUD-Friendly
+$ cd Corona-Tracker
 
 # Install dependencies
 $ npm install
@@ -41,17 +45,9 @@ $ npm install
 $ npm start
 ```
 
-## Tools :
-
-Use <a href="https://www.postman.com/"><img src="https://img.shields.io/badge/POSTMAN-orange"></a> for handling all the HTTP requests.
-
-## API documentation :
-
-The detailed API documentation with requests and responses snapshots is available here <a href="https://documenter.getpostman.com/view/10182345/T1LPE7h2?version=latest"><img src="https://img.shields.io/badge/API-documentation-blueviolet" ></a>
-
 ## Become a Contributor :
 
-1. Clone the repo and create a new branch: $ git checkout https://github.com/neeleshio/RestAPI-CRUD.git
+1. Clone the repo and create a new branch: $ git checkout https://github.com/neeleshio/Corona-Tracker.git
 
 2. Make changes and test.
 
