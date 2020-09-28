@@ -12,6 +12,10 @@
   <img src="https://img.shields.io/badge/license-MIT-blue.svg">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=RestAPI-CRUD-Friendly.visitor-badge">
 </div>
+    
+<h1 align="center">
+  <img src="https://raw.githubusercontent.com/neeleshio/Corona-Tracker/master/Sequence%20%231.gif" alt="demo" width="600">
+</h1>
 
 <hr/>
 
