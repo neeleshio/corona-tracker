@@ -1,6 +1,6 @@
 
 <h1 align="center">
-  <img src="https://raw.githubusercontent.com/neeleshio/Corona-Tracker/master/coronatracker(1).png" alt="Markdownify" width="600">
+  <img src="https://raw.githubusercontent.com/neeleshio/Corona-Tracker/master/coronatracker(2).png" alt="Markdownify" width="600">
 </h1>
 
 <h4 align="center">Responsive corona cases tracker webapp built with ReactJs.</h4>
