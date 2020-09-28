@@ -6,7 +6,7 @@
 <h4 align="center">Responsive corona cases tracker webapp built with ReactJs.</h4>
 
 <div align="center">
-<!--   <img src="https://img.shields.io/badge/dependencies-expressjs-success"> -->
+  <img src="https://img.shields.io/badge/deployed-true-success">
   <a href="https://github.com/mathdroid/covid-19-api"><img src="https://img.shields.io/badge/API-mathdroid-blueviolet"><a/>
   <img src="https://img.shields.io/badge/contributions-welcome-orange.svg">
   <img src="https://img.shields.io/badge/license-MIT-blue.svg">
