@@ -3,7 +3,7 @@
   <img src="https://raw.githubusercontent.com/neeleshio/Corona-Tracker/master/coronatracker.png" alt="Markdownify" width="600">
 </h1>
 
-<h4 align="center">A beginner friendly RESTFull API with CRUD operations.</h4>
+<h4 align="center">Responsive corona cases tracker webapp built with ReactJs.</h4>
 
 <div align="center">
   <img src="https://img.shields.io/badge/dependencies-expressjs-success">
