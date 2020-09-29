@@ -8,7 +8,7 @@
   <a href="https://github.com/mathdroid/covid-19-api"><img src="https://img.shields.io/badge/API-mathdroid-blueviolet"><a/>
   <img src="https://img.shields.io/badge/contributions-welcome-orange.svg">
   <img src="https://img.shields.io/badge/license-MIT-blue.svg">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=RestAPI-CRUD-Friendly.visitor-badge">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=Corona-Tracker.visitor-badge">
 </div>
 
 ## Demo
