@@ -1,13 +1,17 @@
 import React from 'react';
 import axios from 'axios';
+import Switch from "react-switch";
 import "./style.css";
+import sun from './assets/sun.svg'
+import moon from './assets/moon.svg'
 import CountUp from 'react-countup';
 
 export default class App extends React.Component {
     constructor(props) {
         super(props)
 
-        this.getCountryData = this.getCountryData.bind(this)
+        this.getCountryData = this.getCountryData.bind(this);
+        this.handleTheme = this.handleTheme.bind(this);
     }
 
 
@@ -15,8 +19,23 @@ export default class App extends React.Component {
         confirmed: 0,
         recovered: 0,
         deaths: 0,
-        countries: []
+        countries: [],
+        lightMode: false,
     }
+
+    handleTheme(lightMode) {
+        this.setState( {lightMode} );
+        if(this.state.lightMode) {
+            document.querySelector(':root').style.setProperty('--background-color', '#E5E5E5');
+            document.querySelector(':root').style.setProperty('--box-background-color', '#FFFFFF');
+            document.querySelector(':root').style.setProperty('--text-color', '#000000');
+        }
+        else {
+            document.querySelector(':root').style.setProperty('--background-color', '#1E1D21');
+            document.querySelector(':root').style.setProperty('--box-background-color', '#262529');
+            document.querySelector(':root').style.setProperty('--text-color', '#AAAAAA');
+        }
+      }
 
     componentDidMount() {
         this.getData();
@@ -27,6 +46,7 @@ export default class App extends React.Component {
         const resCountries = await axios.get('https://covid19.mathdro.id/api/countries');
         const countries = resCountries.data.countries.map(country => { return country.name });
         countries.unshift('Worldwide')
+        console.log(resApi.data);
 
         this.setState({
             confirmed: resApi.data.confirmed.value,
@@ -50,7 +70,7 @@ export default class App extends React.Component {
 
     renderCountryOptions() {
         return this.state.countries.map((countries, i) => {
-            return <option key={i}>{countries}</option>
+            return <option className="country" key={i}>{countries}</option>
         })
     };
 
@@ -58,6 +78,7 @@ export default class App extends React.Component {
         return (
             <div className="container">
                 <h1>Corona Tracker</h1>
+                <div id="theme-toggle" ><Switch offColor="#E5E5E5" onColor="#1E1D21" checkedIcon={<img className="theme-icon" src={moon} />} uncheckedIcon={<img className="theme-icon" src={sun} />} onChange={this.handleTheme} checked={this.state.lightMode} /></div>
                 <select className="dropdown" onChange={this.getCountryData}>
                     {this.renderCountryOptions()}
                 </select>

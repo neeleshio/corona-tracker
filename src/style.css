@@ -1,5 +1,11 @@
+:root {
+    --background-color: #1E1D21;
+    --box-background-color: #262529;
+    --text-color: #AAAAAA;
+}
+
 html {
-    background-color: #1e1d21;
+    background-color: var(--background-color);
 }
 
 * {
@@ -12,7 +18,7 @@ html {
 
 h2 {
     display: flex;
-    color: #aaaaaa;
+    color: var(--text-color);
     align-items: flex-start;
     font-size: 18px;
     padding: 3px 10px;
@@ -21,6 +27,19 @@ h2 {
 h3 {
     font-size: 38px;
     padding-top: 5px;
+}
+
+#theme-toggle {
+    position: absolute;
+    top: 25px;
+    right: 10px;
+}
+
+.theme-icon {
+    height: 20px;
+    width: 20px;
+    margin-top: 4px;
+    margin-left: 4px;
 }
 
 .box.confirmed > h3 {
@@ -39,7 +58,7 @@ h3 {
     width: 100%;
     padding: 1em;
     text-align: center;
-    background-color: #1e1d21;
+    background-color: var(--background-color);
 }
 
 .flex {
@@ -60,35 +79,38 @@ h3 {
 
 .box.confirmed {
     padding: 0.5em;
-    background: #262529;
+    background: var(--box-background-color);
 box-shadow:10px 10px 20px 0 rgba(0,0,0,.16);
 }
 
 .box.recovered {
     padding: 0.5em;
-    background: #262529;
+    background: var(--box-background-color);
     box-shadow:10px 10px 20px 0 rgba(0,0,0,.16);
 
 }
 
 .box.deaths {
     padding: 0.5em;
-    background: #262529;
+    background: var(--box-background-color);
     box-shadow:10px 10px 20px 0 rgba(0,0,0,.16);
 
 }
 
 .dropdown {
     margin-top: 17px;
-    padding: 2px 20px 2px 20px;
+    padding: 10px 20px 10px 20px;
     height: auto;
     overflow: hidden;
-    font-weight: 100;
-    font-size: 11px;
+    font-weight: 400;
+    font-size: 15px;
     text-align: center;
     border-radius: 8px;
-    color: #aaaaaa;
-    background-color: #1e1d21;;
+    color: var(--text-color);
+    background: var(--box-background-color);
+    box-shadow:10px 10px 20px 0 rgba(0,0,0,.16);
+    border: none;
+    cursor: pointer;
 }
 
 option {
@@ -119,7 +141,7 @@ a {
 }
 
 p, h1 {
-    color: #aaaaaa;
+    color: var(--text-color);
 }
 
 .github {
