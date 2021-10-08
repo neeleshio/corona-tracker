@@ -1,6 +1,6 @@
 
 <h1 align="center">
-  <img src="https://raw.githubusercontent.com/neeleshio/Corona-Tracker/master/coronatracker(2).png" alt="Markdownify" width="600">
+  <img src="https://raw.githubusercontent.com/neeleshio/corona-tracker/master/coronatracker(2).png" alt="Markdownify" width="600">
 </h1>
 <h4 align="center">Responsive corona cases tracker webapp built with ReactJs.</h4>
 <div align="center">
@@ -27,10 +27,10 @@ From your command line:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/neeleshio/Corona-Tracker.git
+$ git clone https://github.com/neeleshio/corona-tracker.git
 
 # Go into the repository
-$ cd Corona-Tracker
+$ cd corona-tracker
 
 # Install dependencies
 $ npm install
@@ -41,7 +41,7 @@ $ npm start
 
 ## Become a Contributor :
 
-1. Clone the repo and create a new branch: $ git checkout https://github.com/neeleshio/Corona-Tracker.git
+1. Clone the repo and create a new branch: $ git checkout https://github.com/neeleshio/corona-tracker.git
 
 2. Make changes and test.
 
