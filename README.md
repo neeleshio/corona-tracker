@@ -25,7 +25,7 @@ You'll need [Git](https://git-scm.com) and [npm](http://npmjs.com) installed on 
 
 From your command line:
 
-```bash
+```
 # Clone this repository
 $ git clone https://github.com/neeleshio/corona-tracker.git
 
